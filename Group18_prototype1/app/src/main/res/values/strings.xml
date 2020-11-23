@@ -12,4 +12,5 @@
     <string name="title_activity_maps">Map</string>
     <string name="search_restaurants">Search Restaurants</string>
     <string name="title">Restaurant Guide</string>
+    <string name="splash_screen">Splash Screen</string>
 </resources>

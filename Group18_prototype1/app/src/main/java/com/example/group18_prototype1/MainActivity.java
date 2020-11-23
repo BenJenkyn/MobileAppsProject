@@ -51,6 +51,13 @@ public class MainActivity extends AppCompatActivity {
                 startEditActivity();
             }
         });
+
+        btnList.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startListActivity();
+            }
+        });
     }
 
     private void startAboutActivity(){
@@ -66,5 +73,10 @@ public class MainActivity extends AppCompatActivity {
     private void startEditActivity(){
         Intent editIntent = new Intent(getApplicationContext(), RestaurantInfoActivity.class);
         startActivity(editIntent);
+    }
+
+    private void startListActivity(){
+        Intent listIntent = new Intent(getApplicationContext(), ListRestaurantActivity.class);
+        startActivity(listIntent);
     }
 }

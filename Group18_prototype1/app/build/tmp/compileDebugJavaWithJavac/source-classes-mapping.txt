@@ -1,0 +1,35 @@
+com/example/group18_prototype1/RestaurantAdapter.java
+ com.example.group18_prototype1.RestaurantAdapter
+ com.example.group18_prototype1.RestaurantAdapter$MyViewHolder
+com/example/group18_prototype1/ListRestaurantActivity.java
+ com.example.group18_prototype1.ListRestaurantActivity
+com/example/group18_prototype1/AboutActivity.java
+ com.example.group18_prototype1.AboutActivity
+com/example/group18_prototype1/information.java
+ com.example.group18_prototype1.information
+com/example/group18_prototype1/RestaurantInfoActivity.java
+ com.example.group18_prototype1.RestaurantInfoActivity
+com/example/group18_prototype1/SplashActivity.java
+ com.example.group18_prototype1.SplashActivity
+com/example/group18_prototype1/MapsActivity.java
+ com.example.group18_prototype1.MapsActivity
+com/example/group18_prototype1/SearchActivity.java
+ com.example.group18_prototype1.SearchActivity
+com/example/group18_prototype1/SecondFragment.java
+ com.example.group18_prototype1.SecondFragment
+ com.example.group18_prototype1.SecondFragment$1
+com/example/group18_prototype1/DatabaseHelper.java
+ com.example.group18_prototype1.DatabaseHelper
+com/example/group18_prototype1/FirstFragment.java
+ com.example.group18_prototype1.FirstFragment
+ com.example.group18_prototype1.FirstFragment$1
+com/example/group18_prototype1/Restaurants.java
+ com.example.group18_prototype1.Restaurants
+com/example/group18_prototype1/BuildConfig.java
+ com.example.group18_prototype1.BuildConfig
+com/example/group18_prototype1/MainActivity.java
+ com.example.group18_prototype1.MainActivity
+ com.example.group18_prototype1.MainActivity$1
+ com.example.group18_prototype1.MainActivity$2
+ com.example.group18_prototype1.MainActivity$3
+ com.example.group18_prototype1.MainActivity$4

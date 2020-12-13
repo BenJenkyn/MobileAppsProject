@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Detail">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dip"
+        android:scaleType="centerCrop"
+        android:id="@+id/img_restaurant_detail"/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7.5dip"
+        app:cardElevation="5dip"
+        app:cardCornerRadius="3dip">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:id="@+id/txt_res_name"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_margin="10dip"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:id="@+id/txt_res_address"
+            android:fontFamily="sans-serif-black"
+            android:layout_margin="10dip"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:id="@+id/txt_res_phone"
+            android:fontFamily="sans-serif-black"
+            android:layout_margin="10dip"
+            />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:id="@+id/txt_res_tags"
+            android:fontFamily="sans-serif-black"
+            android:layout_margin="10dip"
+            />
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_detail"
+            android:layout_gravity="center_horizontal"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:padding="5dip"
+            android:layout_margin="5dip"/>
+    </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="5dip"
+        android:padding="5dip"
+        android:weightSum="5"
+        android:gravity="bottom"
+        >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dip"
+                android:id="@+id/fab_map"
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_dialog_map"
+                app:tint="@android:color/white"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dip"
+                android:id="@+id/fab_fb"
+                android:layout_weight="1"
+                android:src="@drawable/ic_fb"
+                app:tint="@android:color/white"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dip"
+                android:id="@+id/fab_twitter"
+                android:layout_weight="1"
+                android:src="@drawable/ic_twitter"
+                app:tint="@android:color/white"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dip"
+                android:id="@+id/fab_email"
+                android:layout_weight="1"
+                android:src="@drawable/ic_email"
+                app:tint="@android:color/white"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dip"
+                android:id="@+id/fab_rate"
+                android:layout_weight="1"
+                android:src="@drawable/ic_star"
+                app:tint="@android:color/white"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
